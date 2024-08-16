@@ -8,9 +8,6 @@ face where an applicant can submit information that is placed in an external dat
 The project also serves as an exercise in architectural decision-making, deepening our
 understanding of application design and structuring effective teamwork
 
-## Structure
-The frontend and backend of the application are on different servers and are developed with npm/Node.js. The frontend uses React while the backend uses Express.
-
 ## Project Structure and Design:
 In this application, we have implemented a separation of concerns by hosting the frontend and backend on different servers. This architectural choice enhances scalability and allows each component to be optimized and managed independently.
 
@@ -18,3 +15,6 @@ In this application, we have implemented a separation of concerns by hosting the
 The frontend, housed in the frontend directory, is built using React.
 ### Backend:
 The backend, located in the backend directory, is developed using Express, a web framework for Node.js. Express provides a features to handle HTTP requests, connect to databases and implement business logic.
+
+### Database and hosting
+We used Heroku for hosting and the database is managed using Heroku Postgres, a cloud-based SQL database service provided by Heroku. The backend server connects to this Postgres database using a connection string provided by Heroku. This connection string includes all necessary details, such as the database name, host, port, username, and password, enabling secure and efficient communication between the application and the database.
