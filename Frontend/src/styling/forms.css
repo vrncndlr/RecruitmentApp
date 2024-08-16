@@ -1,0 +1,82 @@
+.mainContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.inputContainer {
+    margin-top: 20px;
+}
+
+.inputGroup {
+    margin-bottom: 15px;
+    position: relative; /* Position the input group relative to its containing element */
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputGroup input, select {
+    width: calc(100% - 10px); /* Set width to fill available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.nameFields {
+    display: flex;
+    margin-bottom: 15px; /* Add margin between first and last name fields and other fields */
+}
+
+.nameFields .inputGroup {
+    flex: 1;
+}
+
+.nameFields .inputGroup:first-child {
+    margin-right: 10px; /* Add margin between first name and last name fields */
+}
+
+button {
+    border: none;
+    background: darkolivegreen;
+    color: white;
+    padding: 8px 20px;
+    margin: 14px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button a:hover {
+    background-color: #37461f;
+}
+.remove{
+    background: indianred;
+}
+.cancel, .change, .add {
+    background: grey;
+}
+.error-message{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: red;
+    margin-top: 0.001rem;
+}
+.error-message {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: red;
+    margin-top: 0.001rem;
+    /*height: 1rem; Set a fixed height for error messages */
+    overflow: hidden; /* Hide any overflow */
+}
+.inputGroup .error-message {
+    position: absolute; /* Position the error message absolutely */
+    bottom: -1rem; /* Adjust the positioning to be just below the input */
+    left: 0;
+    width: 100%; /* Ensure the error message spans the full width of the input */
+}
+.success-message{
+    color: green;
+}

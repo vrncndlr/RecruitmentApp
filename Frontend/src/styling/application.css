@@ -1,0 +1,17 @@
+.userDataContainer{
+    background: #ececec;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+}
+.applicationContainer{
+    margin-top: 50px;
+    background-color: #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+.textContainer{
+    text-align: left;
+    padding: 10px;
+}
